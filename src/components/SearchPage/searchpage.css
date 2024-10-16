@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.Header {
+    display: flex;
+    justify-content: space-around;
+    background-color: #343131;
+    padding: 3px;
+}
+.Header a {
+    text-decoration: none;
+    color: white;
+}
+.Nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #D8A25E;
+    padding: 5px;
+}
+.Nav a {
+    text-decoration: none;
+    color: white;
+}
+
+
+/* SearchBar */
+.Search {
+    /* border: solid 1px #4a98ff; */
+    border-radius: 4px;
+    /* color: #4a98ff; */
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.SearchBars {
+    border: solid 1px #4a98ff;
+    border-radius: 4px;
+    color: #4a98ff;
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+}
+input[type="text"] {
+  border: none;
+  outline: none;
+  font-size: 24px;
+}
+input[type="text"]::placeholder {
+  color: #4a98ff;
+  opacity: 0.7;
+}
+i {
+  font-size: 24px;
+  margin: 0 15px;
+}
