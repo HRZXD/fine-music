@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
+  /* background-color: #343131; */
 }
 /* Header */
 .Header {
@@ -13,7 +14,7 @@
 }
 .Header a {
   text-decoration: none;
-  color: white;
+  color: rgb(255, 255, 255);
 }
 /* Nav bar */
 .Nav1 {
@@ -26,7 +27,11 @@
   text-decoration: none;
   color: white;
 }
+/* Library */
+.FavBar,.navbar-toggle{
+  width: 80px;
 
+}
 /* SearchBar */
 .Search {
   border-radius: 4px;

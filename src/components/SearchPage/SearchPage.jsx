@@ -1,5 +1,7 @@
 import React from "react";
 import "./searchpage.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 function SearchPage() {
   return (
     <div className="Main">
@@ -14,7 +16,22 @@ function SearchPage() {
         <a href="HipHop">Hip Hop</a>
         <a href="Jazz">Jazz</a>
       </div>
-      {/* Nav2 */}
+      {/* SideBar */}
+      <header className="FavBar">
+        <nav className="navbar-toggle">
+          <input type="checkbox" href="#" class="menu-open" cheked/>
+          <label class="menu-open-button" For="menu-open">
+            <span className="lines lines-1"></span>             
+          </label>
+          
+          <a href="#" class="menu-item"><i class="" ></i></a>
+        
+        </nav>
+      </header>
+              
+        
+              
+
 
       {/* searchBars */}
       <form className="Search" action="">
