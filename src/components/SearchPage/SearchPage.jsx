@@ -1,6 +1,6 @@
 import React from "react";
 import "./searchpage.css";
-import "./toggleMenu.js";
+import ToggleMenu from "./toggleMenu.js";
 
 function SearchPage() {
   return (
@@ -22,7 +22,7 @@ function SearchPage() {
         <div className="container-d">
           <nav className="nav-toggle">
             <div className="menu-open" onClick={ToggleMenu()} />
-            <label className="menu-open-button" For="menu-open">
+            <label className="menu-open-button" htmlFor="menu-open">
               <span className="lines line-1"></span>             
               <span className="lines line-2"></span>             
               <span className="lines line-3"></span>             
