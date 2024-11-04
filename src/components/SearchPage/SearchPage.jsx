@@ -1,8 +1,16 @@
 import React from "react";
 import "./searchpage.css";
-import ToggleMenu from "./toggleMenu.js";
+// import ToggleMenu from "./toggleMenu.js";
 
 function SearchPage() {
+  const ToggleMenu = () => {
+    let songContainer = document.getElementById("songContainer");
+    if (songContainer.style.display === "none" || songContainer.style.display === "") {
+        songContainer.style.display = "block"; // แสดง container เมื่อกดไอคอน
+    } else {
+        songContainer.style.display = "none"; // ซ่อน container เมื่อกดอีกครั้ง
+    }
+  }
   return (
     <header className="Main">
       <div className="Header">
@@ -21,12 +29,13 @@ function SearchPage() {
       <aside className="FavBar">
         <div className="container-d">
           <nav className="nav-toggle">
-            <div className="menu-open" onClick={ToggleMenu()} />
-            <label className="menu-open-button" htmlFor="menu-open">
-              <span className="lines line-1"></span>             
-              <span className="lines line-2"></span>             
-              <span className="lines line-3"></span>             
-            </label>
+            <button className="menu-open" onClick={ToggleMenu}>
+              <label className="menu-open-button" htmlFor="menu-open">
+                <span className="lines line-1"></span>             
+                <span className="lines line-2"></span>             
+                <span className="lines line-3"></span>             
+              </label>
+            </button>
             {/* List */}
             <div className="List" id="songContainer" >
               <div className="List-header"></div>
