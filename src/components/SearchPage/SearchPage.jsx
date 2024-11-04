@@ -1,12 +1,12 @@
 import React from "react";
 import "./searchpage.css";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import "./toggleMenu.js";
 
 function SearchPage() {
   return (
-    <div className="Main">
+    <header className="Main">
       <div className="Header">
-        <a href="Home">Home</a>
+        <a href="#Home">Home</a>
         <a href="Contact">Contact</a>
         
       </div>
@@ -17,40 +17,46 @@ function SearchPage() {
         <a href="HipHop">Hip Hop</a>
         <a href="Jazz">Jazz</a>
       </div>
-      {/* SideBar */}
-      <header className="FavBar">
-        <nav className="navbar-toggle">
-          <input type="checkbox" href="#" class="menu-open" cheked/>
-          <label class="menu-open-button" For="menu-open">
-            <span className="lines line-1"></span>             
-            <span className="lines line-2"></span>             
-            <span className="lines line-3"></span>             
-          </label>
-          
-          <a href="#" class="menu-item" ></a>
-        
-        </nav>
+      {/* SideMenu */}
+      <aside className="FavBar">
+        <div className="container-d">
+          <nav className="nav-toggle">
+            <div className="menu-open" onClick={ToggleMenu()} />
+            <label className="menu-open-button" For="menu-open">
+              <span className="lines line-1"></span>             
+              <span className="lines line-2"></span>             
+              <span className="lines line-3"></span>             
+            </label>
+            {/* List */}
+            <div className="List" id="songContainer" >
+              <div className="List-header"></div>
+                <span>PinSong</span>
+                <ul className="song-list" >
+                  <li className="song-item">
+                    <div className="thumnail"></div>
+                    <div className="song-info">
+                      <span className="song-title"></span>
+                      <span className="song-description"></span>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+          </nav>
+        </div>
+            
+      </aside>
 
-      </header>
-
-      
-              
       {/* searchBars */}
+
       <form className="Search" action="">
         <div className="SearchBars">
           
           <input type="text" placeholder="Search" />
         </div>
       </form>
-        
-              
 
-
-
-      
-      
-
-    </div>
+    </header>
+    
   );
 }
 
