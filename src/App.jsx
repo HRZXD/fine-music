@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import SearchPage from './components/SearchPage/SearchPage.jsx'
 
+
 function App() {
   const [count, setCount] = useState(0)
 
@@ -11,6 +12,7 @@ function App() {
     <div className="container">
       <SearchPage />
     </div>
+    
   )
 }
 

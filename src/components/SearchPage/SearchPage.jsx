@@ -29,11 +29,11 @@ function SearchPage() {
       <aside className="FavBar">
         <div className="container-d">
           <nav className="nav-toggle">
-              <label className="menu-open-button" htmlFor="menu-open" onClick={ToggleMenu} >
+            <label className="menu-open-button" htmlFor="menu-open" onClick={ToggleMenu} >
                 <span className="lines line-1"></span>             
                 <span className="lines line-2"></span>             
                 <span className="lines line-3"></span>             
-              </label>
+            </label>
             {/* List */}
             <div className="List" id="songContainer" >
               <div className="List-header">
@@ -53,15 +53,17 @@ function SearchPage() {
         </div>
             
       </aside>
+      {/* img */}
 
-      {/* searchBars */}
-
-      <form className="Search" action="">
-        <div className="SearchBars">
-          
-          <input type="text" placeholder="Search" />
-        </div>
-      </form>
+      
+      <div className="main-content">
+            {/* searchBars */}
+        <form className="Search" action="">
+          <div className="SearchBars">
+            <input type="text" placeholder="Search" />
+          </div>
+        </form>
+      </div>
 
     </header>
     

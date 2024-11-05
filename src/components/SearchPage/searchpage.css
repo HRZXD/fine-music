@@ -4,6 +4,7 @@
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
   /* background-color: #343131; */
+  
 }
 /* Header */
 .Header {
@@ -26,6 +27,15 @@
 .Nav1 a {
   text-decoration: none;
   color: white;
+}
+/* Nav-toggle */
+.nav-toggle{
+  width: 300px;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  position: absolute;
 }
 /* List */
 .FavBar{
@@ -51,7 +61,7 @@
     
 .List{
     width: 300px;
-    height: 500px;
+    height: 100%;
     background-color: #000;
     border-radius: 10px;
     overflow: hidden;
@@ -110,25 +120,11 @@
   transform: translateY(8px);
 }
 
-.menu-open:active+.menu-open-button .line-1{
-  transform: rotate(45deg);
+/* img */
+
+.main-content{
+  background-image: url('/public/images/background.svg');
 }
-
-.menu-open.menu-open :active+.menu-open-button .line-2{
-  transform: scale(0);
-}
-
-.menu-open:active+.menu-open-button .line-3{
-  transform: rotate(-45deg);
-}
-
-.menu-open:active+.menu-open-button {
-  transition-timing-function: linear;
-  transition-duration: 200ms;
-  transform: scale(0.8);
-}
-
-
 
 
 /* SearchBar */
@@ -138,6 +134,8 @@
   min-height: 100vh;
   justify-content: center;
   align-items: center;
+  
+  
 }
 .SearchBars {
   width: 50%;

@@ -7,5 +7,7 @@ function ToggleMenu() {
         songContainer.style.display = "none"; // ซ่อน container เมื่อกดอีกครั้ง
     }
 
+    var openMenu = document.getElementsByClassName("")
+
 }
 export default ToggleMenu;
