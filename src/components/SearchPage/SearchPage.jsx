@@ -14,7 +14,7 @@ function SearchPage() {
   return (
     <header className="Main">
       <div className="Header">
-        <a href="SearchPage">Home</a>
+        <a href="/src/components/SearchPage">Home</a>
         <a href="Contact">Contact</a>
         
       </div>
@@ -22,7 +22,7 @@ function SearchPage() {
       <div className="Nav1">
         <a href="PopMusic">Pop Music</a>
         <a href="Metal">Metal</a>
-        <a href="HipHop">Hip Hop</a>
+        <a href="HipHopPage">Hip Hop</a>
         <a href="Jazz">Jazz</a>
       </div>
       {/* SideMenu */}
@@ -43,12 +43,15 @@ function SearchPage() {
                   <li className="song-item">
                     <div className="thumnail"></div>
                     <div className="song-info">
-                      <span className="song-title">#1</span>
-                      <span className="song-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, magni!</span>
+                      <span className="song-title">Song #1</span>
+                      <span className="song-description">Lorem ipsum dolor sit amet </span>
+                    </div>
+                    <div className="Heart">
+                      <div className="Like"></div>
                     </div>
                   </li>
                 </ul>
-              </div>
+            </div>    
           </nav>
         </div>
             
@@ -56,11 +59,11 @@ function SearchPage() {
       {/* img */}
 
       
-      <div className="main-content">
             {/* searchBars */}
+      <div className="main-content">
         <form className="Search" action="">
           <div className="SearchBars">
-            <input type="text" placeholder="Search" />
+            <input type="text" placeholder="Lyrics..." />
           </div>
         </form>
       </div>

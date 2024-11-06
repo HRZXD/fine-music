@@ -38,25 +38,27 @@
   position: absolute;
 }
 /* List */
-.FavBar{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  display: flex;
-}
 
-.FavBar container-d{
+.List{
+  margin-left: 0;
+  margin-top: 4px;
   font-family: Arial, sans-serif;
   color: #fff;
   display: flex;
   height: 100vh;
+  display: none;
 }
    
-.list-header{
+.List-header{
+  margin: 0;
+  width: 300px;
+  height: 50px;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   padding: 10px 0;
+  font-size: 20px;
+  font-weight:bolder;
 }
     
 .List{
@@ -65,9 +67,82 @@
     background-color: #000;
     border-radius: 10px;
     overflow: hidden;
-    display: flex;
-    display: none;
 }
+
+.thumnail{
+  width: 40px;
+  height: 40px;
+  background-color: #666;
+  border-radius: 5px;
+  margin-right: 10px;
+  padding-left: 5px;
+  margin-left: 5px;
+}
+
+.song-list {
+  list-style-type: none;
+  overflow-y: auto;
+  max-height: 400px;
+  
+}
+
+.song-item{
+  display: flex;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid #333;
+  font-size: 14px;
+}
+
+.song-title{
+  font-weight: bold;
+}
+
+.song-info{
+  display: flex;
+  flex-direction: column;
+}
+
+.Heart{
+  width: 80px;
+  height: 30px;
+  overflow: hidden;
+  padding-right: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Like {
+  position: relative;
+  width: 15px;
+  height: 15px;
+  background-color: white;
+  transform: rotate(-45deg);
+  cursor: pointer;
+}
+.Like::before,
+.Like::after {
+  content: "";
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  background-color: white;
+  border-radius: 50%;
+}
+
+.Like::before {
+  top: -8px;
+  left: 0;
+}
+
+.Like::after {
+  top: 0;
+  left: 8px;
+}
+
+
+
 
 /* FavBar */
 .menu-item,.menu-open-button{
@@ -122,9 +197,7 @@
 
 /* img */
 
-.main-content{
-  background-image: url('/public/images/background.svg');
-}
+
 
 
 /* SearchBar */
@@ -144,12 +217,15 @@
   border: 2px solid #65686c;
   border-radius: 20px;
   width: 500px;
+  position: absolute;
+  
 }
 input[type="text"] {
   border: none;
   outline: none;
   font-size: 25px;
-  display: center;
+  
+  
 }
 input[type="text"]::placeholder {
   color: #65686c;

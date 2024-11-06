@@ -3,7 +3,13 @@ import './hiphoppage.css'
 
 function HipHopPage() {
   return (
-    <div>HipHopPage</div>
+    <div class="HipHopPage">
+      <div className="Container">
+        
+      </div>
+
+    </div>
+    
   )
 }
 
