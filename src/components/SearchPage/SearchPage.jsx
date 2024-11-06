@@ -2,6 +2,7 @@ import React from "react";
 import "./searchpage.css";
 // import ToggleMenu from "./toggleMenu.js";
 
+
 function SearchPage() {
   const ToggleMenu = () => {
     let songContainer = document.getElementById("songContainer");
@@ -14,7 +15,7 @@ function SearchPage() {
   return (
     <header className="Main">
       <div className="Header">
-        <a href="/src/components/SearchPage">Home</a>
+        <a href="SearchPage">Home</a>
         <a href="Contact">Contact</a>
         
       </div>
