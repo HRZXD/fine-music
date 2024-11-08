@@ -1,7 +1,35 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Roboto", sans-serif;
-    /* background-color: #343131; */
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  /* background-color: #343131; */
+}
+
+/* SearchBar */
+.Search-P {
+  padding: 20px;
+  border-radius: 4px;
+  display: flex;
+  min-height: 100vh;
+  justify-content: center;
+  align-items:flex-start;
+}
+.SearchBars {
+  width: 50%;
+  padding: 5px;
+  font-size: 18px;
+  border: 2px solid #65686c;
+  border-radius: 20px;
+  width: 500px;
+  position: absolute;
+}
+input[type="text"] {
+  border: none;
+  outline: none;
+  font-size: 25px;
+}
+input[type="text"]::placeholder {
+  color: #65686c;
+  opacity: 0.7;
+}
