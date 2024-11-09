@@ -8,14 +8,19 @@ function PopPage() {
     <>
     <Nav/>
     <div className="HipHop-Content" >
-      <div className="main-content">
-          <form className="Search-P" action="">
-            <div className="SearchBars">
-              <input type="text" placeholder="Lyrics..." />
-            </div>
-          </form>
+        <form className="Search-P" action="">
+          <div className="SearchBars">
+            <input type="text" placeholder="Lyrics..." />
+          </div>
+        </form>
+        <div className="News">
+          <div className="News-Content">
+            <div className="Popular">Popular</div>
+            <div className="Artist">Artist</div>
+            <div className="Music">Music</div>
+          </div>
         </div>
-      </div>
+    </div>
     </>
   )
 }

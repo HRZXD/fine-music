@@ -51,7 +51,7 @@ function Nav() {
                         </div>    
                     </nav>
                 </div>
-            </aside> 
+            </aside>
         </nav>
     )
 }

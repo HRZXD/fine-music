@@ -18,6 +18,11 @@ function SearchPage() {
           </form>
         </div>
     </header>
+    <footer className="Footer">
+      <div className="footer" >
+        <p>@FineMusicBy....</p>
+      </div>
+    </footer>
     </>
   );
 }
