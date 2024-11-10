@@ -17,6 +17,31 @@ function SearchPage() {
             </div>
           </form>
         </div>
+        <div className="Music-Data">
+          <div className="Music-Box">
+            <div className="Music-Seacrh">
+              <div className="Head-Music">
+                <a href="">Music-Name</a>
+              </div>
+              <div className="Music-detail">
+                <div className="Music-Thumnail">
+
+                </div>
+              </div>
+            </div>
+            <div className="Music-Seacrh">
+              <div className="Head-Music">
+                <a href="">Music-Name</a>
+              </div>
+            </div>
+            <div className="Music-Seacrh">
+              <div className="Head-Music">
+                <a href="">Music-Name</a>
+              </div>
+            </div>
+            
+          </div>
+        </div>
     </header>
     <footer className="Footer">
       <div className="footer" >
