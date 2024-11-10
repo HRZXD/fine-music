@@ -7,20 +7,31 @@ function PopPage() {
   return (
     <>
     <Nav/>
-    <div className="HipHop-Content" >
-        <form className="Search-P" action="">
-          <div className="SearchBars">
-            <input type="text" placeholder="Lyrics..." />
-          </div>
-        </form>
+    <div className="Pop-Content" >
+        <div className="search">
+          <form className="Search-P" action="">
+            <div className="SearchBars">
+              <input type="text" placeholder="Lyrics..." />
+            </div>
+          </form>
+        </div>
         <div className="News">
           <div className="News-Content">
-            <div className="Popular">Popular</div>
-            <div className="Artist">Artist</div>
-            <div className="Music">Music</div>
+            <div className="Popular-Pop">Popular</div>
+            <div className="Artist-Pop">Artist</div>
+            <div className="Music-Pop">
+              <div className='Music-Pop-1' ></div>
+              <div className='Music-Pop-2' ></div>
+              <div className='Music-Pop-3' ></div>
+            </div>
           </div>
         </div>
     </div>
+    <footer className="Footer">
+      <div className="footer" >
+        <p>@FineMusicBy....</p>
+      </div>
+    </footer>
     </>
   )
 }

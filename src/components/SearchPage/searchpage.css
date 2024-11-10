@@ -198,7 +198,12 @@
 }
 
 /* img */
-
+.Main{
+  background: url('/public/images/background.svg');
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
 
 
 
@@ -226,7 +231,6 @@ input[type="text"] {
   border: none;
   outline: none;
   font-size: 25px;
-  
   
 }
 input[type="text"]::placeholder {

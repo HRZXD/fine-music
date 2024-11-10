@@ -6,14 +6,26 @@
   /* background-color: #343131; */
 }
 
+@media screen and (max-width:600px) {
+
+}
+
+.Pop-Content {
+  background: url("/public/images/background.svg");
+  background-position: center;
+  background-size: cover;
+  min-height: 100vh;
+  z-index: -1;
+}
+
 /* SearchBar */
 .Search-P {
-  padding: 20px;
+  padding: 30px;
   border-radius: 4px;
   display: flex;
-  min-height: 10vh;
+  min-height: 20vh;
   justify-content: center;
-  align-items:flex-start;
+  align-items: center;
 }
 .SearchBars {
   width: 50%;
@@ -27,21 +39,23 @@
 input[type="text"] {
   border: none;
   outline: none;
-  font-size: 25px;
+  font-size: 22px;
+  text-decoration: none;
 }
 input[type="text"]::placeholder {
   color: #65686c;
   opacity: 0.7;
 }
 
-.News{
+/* Conten of Music */
+.News {
   position: absolute;
   width: 100%;
-  height: 50%;
+  height: 60%;
   padding: 10px;
 }
 
-.News-Content{
+.News-Content {
   display: grid;
   grid-template-columns: 1fr 2fr;
   grid-template-rows: 1fr 1fr;
@@ -50,42 +64,76 @@ input[type="text"]::placeholder {
   gap: 20px;
   margin-right: 10%;
   padding: 30px;
-  background-color:#e0bb8e;
+  background-color: #e0bb8e;
   border-radius: 45px;
-  border-style: solid ;
+  border-style: solid;
   border-width: 3px;
   border-color: black;
+  box-shadow: 5px 5px #4d4b4b;
 }
 
-.Popular{
+.Popular-Pop {
   grid-row: span 2;
   background-color: #efa851;
   border-radius: 20px;
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  color: #FFF;
+  color: #fff;
   font-size: 1.5em;
+  box-shadow: 5px 5px 5px #c37c26;
+  cursor: pointer;
 }
 
-.Artist{
+.Artist-Pop {
   background-color: #efa851;
   border-radius: 20px;
-  display:flex;
+  display: flex;
   justify-content: center;
   align-items: flex-start;
   color: white;
   font-size: 1.5em;
+  box-shadow: 5px 5px 5px #c37c26;
+  cursor: pointer;
 }
 
-.Music{
+.Music-Pop {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 15px;
+  gap: 10px;
   background-color: #efa851;
   border-radius: 20px;
-  display:flex;
   justify-content: center;
   align-items: flex-start;
   color: white;
   font-size: 1.5em;
-  
+  box-shadow: 5px 5px 5px #c37c26;
+  cursor: pointer;
 }
 
+.Music-Pop-1 {
+  height: 100%;
+  background-color: gray;
+  border-radius: 5px;
+}
+.Music-Pop-2 {
+  height: 100%;
+  background-color: gray;
+  border-radius: 5px;
+}
+.Music-Pop-3 {
+  height: 100%;
+  background-color: gray;
+  border-radius: 5px;
+}
+
+.Popular-Pop:hover {
+  transform: scale(1.025);
+}
+.Artist-Pop:hover {
+  transform: scale(1.015);
+}
+.Music-Pop:hover {
+  transform: scale(1.015);
+}

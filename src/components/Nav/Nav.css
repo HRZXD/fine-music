@@ -7,6 +7,22 @@
 }
 
 
+.First-Nav {
+  display: flex;
+  justify-content: space-around;
+  background-color: #343131;
+  padding: 6px;
+}
+.First-Nav a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  
+}
+
+.First-Nav a:hover{
+  color: #d5d5d5;
+  text-shadow: #fff;
+}
 
 .Second-Nav {
   display: flex;
@@ -18,17 +34,10 @@
   text-decoration: none;
   color: white;
 }
+.Second-Nav a:hover {
+  color: #fde1bd;
+}
 
-.First-Nav {
-  display: flex;
-  justify-content: space-around;
-  background-color: #343131;
-  padding: 6px;
-}
-.First-Nav a {
-  text-decoration: none;
-  color: rgb(255, 255, 255);
-}
 
 .nav-toggle {
   width: 300px;
@@ -37,6 +46,7 @@
   padding: 0;
   box-sizing: border-box;
   position: absolute;
+  z-index: 2;
 }
 /* List */
 
@@ -46,9 +56,11 @@
   font-family: Arial, sans-serif;
   color: #fff;
   display: flex;
-  height: 100vh;
+  min-height: 100vh;
   display: none;
-  transition: 5ms;
+  background-color: #000;
+  border-radius: 10px;
+
 }
 
 .List-header {
@@ -64,11 +76,6 @@
   cursor: default;
 }
 
-.List {
-  background-color: #000;
-  border-radius: 10px;
-  overflow: hidden;
-}
 
 .thumnail {
   width: 40px;
@@ -113,6 +120,10 @@
   align-items: center;
 }
 
+.Button-Like{
+  display: none;
+}
+
 .Like {
   position: relative;
   width: 15px;
@@ -142,6 +153,10 @@
 }
 
 /* background */
+
+
+
+
 
 /* FavBar */
 .menu-item,

@@ -44,7 +44,8 @@ function Nav() {
                                         <span className="song-description">Lorem ipsum dolor sit amet </span>
                                     </div>
                                     <div className="Heart">
-                                        <div className="Like"></div>
+                                        <label className='Like' ></label>
+                                        <button className="Button-Like" />
                                     </div>
                                 </li>
                             </ul>
@@ -52,6 +53,7 @@ function Nav() {
                     </nav>
                 </div>
             </aside>
+            
         </nav>
     )
 }

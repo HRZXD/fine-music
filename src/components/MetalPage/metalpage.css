@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  /* background-color: #343131; */
+}
+
+.Metal-Content {
+    background: url("/public/images/background.svg");
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+    
+}
+
+.News {
+  position: absolute;
+  width: 100%;
+  height: 50%;
+  padding: 10px;
+  
+}
+
+.News-Content {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 1fr 1fr;
+  height: 100%;
+  margin-left: 10%;
+  gap: 20px;
+  margin-right: 10%;
+  padding: 30px;
+  background-color: #e0bb8e;
+  border-radius: 45px;
+  border-style: solid;
+  border-width: 3px;
+  border-color: black;
+  box-shadow: 5px 5px #4d4b4b;
+}
+
+.Popular-Metal {
+  grid-row: span 2;
+  background-color: #efa851;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  color: #fff;
+  font-size: 1.5em;
+  box-shadow: 5px 5px 5px #c37c26;
+  cursor: pointer;
+}
+
+.Artist-Metal {
+  background-color: #efa851;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  color: white;
+  font-size: 1.5em;
+  box-shadow: 5px 5px 5px #c37c26;
+  cursor: pointer;
+}
+
+.Music-Metal {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 15px;
+  gap: 10px;
+  background-color: #efa851;
+  border-radius: 20px;
+  justify-content: center;
+  align-items: flex-start;
+  color: white;
+  font-size: 1.5em;
+  box-shadow: 5px 5px 5px #c37c26;
+  cursor: pointer;
+}
+
+.Music-Metal-1 {
+  height: 100%;
+  background-color: gray;
+  border-radius: 5px;
+}
+.Music-Metal-2 {
+  height: 100%;
+  background-color: gray;
+  border-radius: 5px;
+}
+.Music-Metal-3 {
+  height: 100%;
+  background-color: gray;
+  border-radius: 5px;
+}
+
+.Popular-Metal:hover {
+  transform: scale(1.025);
+}
+.Artist-Metal:hover {
+  transform: scale(1.015);
+}
+.Music-Metal:hover {
+  transform: scale(1.015);
+}
