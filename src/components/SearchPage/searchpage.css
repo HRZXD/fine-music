@@ -70,14 +70,12 @@
   overflow: hidden;
 }
 
-.thumnail {
-  width: 40px;
-  height: 40px;
-  background-color: #666;
-  border-radius: 5px;
-  margin-right: 10px;
-  padding-left: 5px;
-  margin-left: 5px;
+img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  margin-left: 22px;
 }
 
 .song-list {
@@ -112,6 +110,12 @@
   justify-content: center;
   align-items: center;
 }
+
+
+.Heart:hover{
+  transform: scale(1.005);
+}
+
 
 .Like {
   position: relative;
@@ -203,9 +207,10 @@
 .Search {
   border-radius: 4px;
   display: flex;
-  min-height: 100vh;
+  min-height: 10vh;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
+  padding-top: 30px;
 }
 .SearchBars {
   width: 50%;
@@ -241,8 +246,8 @@ input[type="text"]::placeholder {
 /* MusicData */
 .Music-Data {
   min-height: 50vh;
-  position: relative;
   align-self: flex-end;
+  position: absolute;
 }
 
 .Music-Box {
@@ -269,6 +274,8 @@ input[type="text"]::placeholder {
   border-style: solid ;
   box-shadow: 5px 5px 4px #514f4f;
 }
+
+
 
 .Head-Music {
   display: flex;
@@ -325,7 +332,8 @@ input[type="text"]::placeholder {
   height: 35px;
   border-radius: 50%;
   font-size: 1.2em;
-  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+  border: solid #000;
+  box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.2);
   align-items: center;
   justify-content: center;
   color: white;

@@ -43,7 +43,7 @@ function Nav() {
                                         <span className="song-title">Song #1</span>
                                         <span className="song-description">Lorem ipsum dolor sit amet </span>
                                     </div>
-                                    <div className="Heart">
+                                    <div className="Heart--">
                                         <label className='Like' ></label>
                                         <button className="Button-Like" />
                                     </div>
