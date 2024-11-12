@@ -193,7 +193,7 @@
 
 /* img */
 .Main {
-  background: url("/public/images/background.svg");
+  background: url("/images/background.svg");
   background-position: center;
   background-size: cover;
   height: 100vh;
