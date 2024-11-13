@@ -207,10 +207,12 @@ img{
 @media only screen and (max-width:1290px) {
   div.Main {width: 100% ;}
   div.SearchBars {width: 30%; font-size: 12px; }
-  div.Music-Data { min-height: 10vh ; }
-  div.Music-Box {width: 55vh ;  }
-  div.Music-Seacrh{min-height: 10vh;}
-  div.Head-Music{height: 3px;}
+  div.Music-Data { min-height: 50vh ; }
+  div.Music-Box {width: auto; height: 20% ; grid-template-columns: 1fr; }
+  div.Music-Seacrh{height: 100%; row-gap: 10px; }
+  div.Head-Music{margin-left: 40px; height: 2vh; }
+  img{margin-left: 15px; margin-top: 10px ; }
+  div.Heart{ height: 10%;}
   input[type="text"] {
     font-size: 16px;
   }
@@ -272,13 +274,14 @@ input[type="text"]::placeholder {
 
 .Music-Box {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  height: 100%;
+  grid-template-columns: 1fr 1fr 1fr ;
+  height: 50%;
   margin-left: 10%;
   gap: 20px;
   margin-right: 10%;
   padding: 30px;
   margin: 10px;
+  height: auto;
 }
 
 .Music-Seacrh {
@@ -311,6 +314,7 @@ input[type="text"]::placeholder {
 .Music-Seacrh a {
   color: #ffffff;
   text-decoration: none;
+  justify-content: center;
 }
 
 .Music-Thumnail {
