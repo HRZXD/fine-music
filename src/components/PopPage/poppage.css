@@ -6,9 +6,7 @@
   /* background-color: #343131; */
 }
 
-@media screen and (max-width:600px) {
 
-}
 
 .Pop-Content {
   background: url("/public/images/background.svg");
@@ -140,5 +138,11 @@ input[type="text"]::placeholder {
 
 @media  only screen and (max-width:1290px) {
   .Search-P{ min-height: 10vh; }
-  .News{height: 20%; padding: 0;  }
+  .News{height: 20%; padding: 0; }
+  .text{font-size: 16px;}
+  input[type="text"] {
+    border: none;
+    outline: none;
+    font-size: 16px;
+    text-decoration: none;}
 }

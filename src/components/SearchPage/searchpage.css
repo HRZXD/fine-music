@@ -206,7 +206,7 @@ img{
 
 @media only screen and (max-width:1290px) {
   div.Main {width: 100% ;}
-  div.SearchBars {width: 30%; font-size: 15px; }
+  div.SearchBars {width: 30%; font-size: 12px; }
   div.Music-Data { min-height: 10vh ; }
   div.Music-Box {width: 55vh ;  }
   div.Music-Seacrh{min-height: 10vh;}
@@ -231,14 +231,18 @@ img{
   width: 500px;
   position: absolute;
 }
+
+
+
 input[type="text"] {
   border: none;
   outline: none;
-  font-size: 25px;
+  font-size: 21px;
 }
 input[type="text"]::placeholder {
   color: #65686c;
   opacity: 0.7;
+  font-size: 22px;
 }
 
 .Footer {

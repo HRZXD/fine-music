@@ -44,7 +44,7 @@ function SearchPage() {
         <div className="main-content">
           <form className="Search" onSubmit={handleSubmit}>
             <div className="SearchBars">
-              <input
+              <input className=""
                 type="text"
                 placeholder="Lyrics..."
                 value={searchTerm}
