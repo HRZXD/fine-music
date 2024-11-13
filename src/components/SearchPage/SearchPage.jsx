@@ -59,7 +59,7 @@ function SearchPage() {
                     <div className="Music-Box">
                       <div className="Music-Seacrh">
                         <div className="Head-Music">
-                          <a href="#">จำนน - นน ธนนท์</a>
+                          <a href="#">จำนน</a>
                         </div>
                         <div className="Heart">
                           <a className="Like-Heart" href="https://www.youtube.com/watch?v=l5ur0v0lyrs&pp=ygUM4LiI4Liz4LiZ4LiZ" target="_blank" rel="noopener noreferrer" >❤</a>
@@ -87,7 +87,7 @@ function SearchPage() {
                     <div className="Music-Box">
                       <div className="Music-Seacrh">
                         <div className="Head-Music">
-                          <a href="#">Very Very Small - ยังโอม</a>
+                          <a href="#">Very Very Small</a>
                         </div>
                         <div className="Heart">
                           <a className="Like-Heart" href="https://www.youtube.com/watch?v=gVqPxHW9JQA&pp=ygUPdmVyeSB2ZXJ5IHNtYWxs" target="_blank" rel="noopener noreferrer" >❤</a>
@@ -117,7 +117,7 @@ function SearchPage() {
                     <div className="Music-Box">
                       <div className="Music-Seacrh">
                         <div className="Head-Music">
-                          <a href="#">เด็กอินเตอร์-ยังโอม</a>
+                          <a href="#">เด็กอินเตอร์</a>
                         </div>
                         <div className="Heart">
                           <a className="Like-Heart" href="https://www.youtube.com/watch?v=XWllLAEHa3M&pp=ygUk4LmA4LiU4LmH4LiB4Lit4Li04LiZ4LmA4LiV4Lit4Lij4LmM" target="_blank" rel="noopener noreferrer" >❤</a>

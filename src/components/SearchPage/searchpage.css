@@ -203,6 +203,15 @@ img{
   height: 100vh;
 }
 
+@media only screen and (max-width:1290px) {
+  .Main {width: 1290px;}
+  div.SearchBars {width: 30%; font-size: 15px; }
+  div.Music-Data { min-height: 10vh ; }
+  div.Music-Box {width: 55vh ;  }
+  div.Music-Seacrh{min-height: 10vh;}
+  div.Head-Music{height: 3px;}
+}
+
 /* SearchBar */
 .Search {
   border-radius: 4px;
