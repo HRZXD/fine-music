@@ -28,7 +28,7 @@ function JazzPage() {
     </div>
     <footer className="Footer">
       <div className="footer" >
-        <p>@FineMusicBy....</p>
+        <p>FineMusic By @kamerajanakute</p>
       </div>
     </footer>
     </>
