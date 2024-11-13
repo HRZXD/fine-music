@@ -211,6 +211,9 @@ img{
   div.Music-Box {width: 55vh ;  }
   div.Music-Seacrh{min-height: 10vh;}
   div.Head-Music{height: 3px;}
+  input[type="text"] {
+    font-size: 16px;
+  }
   input[type="text"]::placeholder {
     font-size: 18px;
   }
