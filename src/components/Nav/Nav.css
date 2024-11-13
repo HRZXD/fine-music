@@ -48,9 +48,13 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  position: absolute;
-  z-index: 2;
+  position: fixed; /* Changed to fixed to take it out of normal flow */
+  top: 0; /* Aligns it at the top of the viewport */
+  left: 0; /* Aligns it on the right */
+  z-index: 1000; /* Ensures it appears above other elements */
+  box-shadow: -4px 0 8px rgba(0, 0, 0, 0.2); /* Optional: add shadow for a more distinct look */
 }
+
 /* List */
 
 .List {

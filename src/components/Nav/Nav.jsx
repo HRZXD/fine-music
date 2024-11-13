@@ -25,13 +25,12 @@ function Nav() {
             </div>
             <aside className="FavBar">
                 <div className="container-d">
-                    <nav className="nav-toggle">
+                    {/* <nav className="nav-toggle">
                         <label className="menu-open-button" htmlFor="menu-open" onClick={ToggleMenu} >
                             <span className="lines line-1"></span>             
                             <span className="lines line-2"></span>             
                             <span className="lines line-3"></span>             
                         </label>
-                        {/* List */}
                         <div className="List" id="songContainer" >
                             <div className="List-header">
                                 <span>PinSong</span>
@@ -50,7 +49,7 @@ function Nav() {
                                 </li>
                             </ul>
                         </div>    
-                    </nav>
+                    </nav> */}
                 </div>
             </aside>
             
