@@ -211,6 +211,9 @@ img{
   div.Music-Box {width: 55vh ;  }
   div.Music-Seacrh{min-height: 10vh;}
   div.Head-Music{height: 3px;}
+  input[type="text"]::placeholder {
+    font-size: 18px;
+  }
 }
 
 /* SearchBar */
@@ -243,7 +246,6 @@ input[type="text"]::placeholder {
   color: #65686c;
   opacity: 0.7;
   font-size: 22px;
-  width: 100%;
 }
 
 .Footer {
