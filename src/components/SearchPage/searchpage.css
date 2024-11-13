@@ -201,10 +201,11 @@ img{
   background-position: center;
   background-size: cover;
   height: 100vh;
+  width: 100%;
 }
 
 @media only screen and (max-width:1290px) {
-  .Main {width: 1290px;}
+  div.Main {width: 100% ;}
   div.SearchBars {width: 30%; font-size: 15px; }
   div.Music-Data { min-height: 10vh ; }
   div.Music-Box {width: 55vh ;  }
