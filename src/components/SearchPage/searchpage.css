@@ -243,6 +243,7 @@ input[type="text"]::placeholder {
   color: #65686c;
   opacity: 0.7;
   font-size: 22px;
+  width: 100%;
 }
 
 .Footer {
