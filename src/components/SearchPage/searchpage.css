@@ -204,7 +204,7 @@ img{
   width: 100%;
 }
 
-@media only screen and (max-width:1290px) {
+@media only screen and (max-width:600px) {
   div.Main {width: 100% ;}
   div.SearchBars {width: 30%; font-size: 12px; }
   div.Music-Data { min-height: 50vh ; }
